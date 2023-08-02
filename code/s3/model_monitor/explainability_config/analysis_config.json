@@ -1,0 +1,1 @@
+{"dataset_type": "text/csv", "label": "fraud", "methods": {"shap": {"use_logit": false, "save_local_shap_values": true, "num_samples": 100, "agg_method": "mean_abs", "seed": 42}, "report": {"name": "report", "title": "Analysis Report"}}, "predictor": {"instance_type": "ml.m4.xlarge", "initial_instance_count": 1}}

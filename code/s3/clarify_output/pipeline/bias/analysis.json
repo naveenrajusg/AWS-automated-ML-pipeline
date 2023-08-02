@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "post_training_bias_metrics": {
+        "label": "fraud",
+        "facets": {
+            "customer_gender_female": [
+                {
+                    "value_or_threshold": "1",
+                    "metrics": [
+                        {
+                            "name": "DPPL",
+                            "description": "Difference in Positive Proportions in Predicted Labels (DPPL)",
+                            "value": -0.0012156360444981473
+                        }
+                    ]
+                }
+            ]
+        },
+        "label_value_or_threshold": "0"
+    }
+}
